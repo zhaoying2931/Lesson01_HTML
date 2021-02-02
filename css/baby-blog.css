@@ -1,0 +1,82 @@
+@import url('http://fonts.googleapis.com/css?family=Coming+Soon');
+@import url('http://fonts.googleapis.com/css?family=Over+the+Rainbow');
+@import url('http://fonts.googleapis.com/css?family=Patrick+Hand+SC');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+/* CSS RESET */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,
+h6,hr,pre,form,fieldset,input,textarea,p,blockquote,table,
+th,td { margin: 0; padding: 0; border: 0; outline: none; }
+ul, li, ol { list-style: none; }
+li { display: inline-block; }
+fieldset,img,abbr { border: 0; }
+address,caption,cite,code,dfn,em,h1,h2,h3,
+h4,h5,h6,th,var { font-style: normal; font-weight: normal; }
+caption,th { text-align: left; }
+q:before,q:after { content: ''; }
+a { text-decoration: none; }
+body{
+  font-family: 'Lato', sans-serif;
+  background:#fff;
+}
+body > *{
+  width:600px;
+  margin: 0 auto;
+}
+body > header{
+  font-family:'Coming Soon';
+  color:#7cebd6;
+}
+body > header h1{
+  font-weight: 700;
+  font-size: 72px;
+  text-align:left;
+  padding: 30px 0 0;
+}
+body > header h2{
+  font-family:'Over The Rainbow', cursive;
+  color:#ff9992;
+  font-size:26px;
+  text-align:right;
+  margin:-45px 0 0;
+  padding:0 0 10px;
+}
+nav{
+  margin:10px auto;
+  border-top:2px dashed #ff9992;
+  border-bottom:2px dashed #ff9992;
+  color:#df9e6e;
+}
+nav ul{
+  text-align:center;
+  width:100%;
+}
+nav li{
+  text-align:center;
+  padding:10px 20px;
+}
+nav li:hover{
+  background:#ffbeb5;
+  cursor:pointer;
+  color:white;
+}
+
+article{
+  width:580px;
+  padding:10px;
+  font-weight:200;
+  line-height:1.5em;
+}
+article h1, article h2{
+  font-family:'Patrick Hand SC', cursive;
+  color:#7cebd6;
+  font-weight:700;
+  margin:15px 0 0px;
+}
+article h3{
+  color:#7cebd6;
+  margin:0 0 8px;
+}
+article img, article iframe, article object{
+  width:100% !important;
+  height: auto !important;
+}
